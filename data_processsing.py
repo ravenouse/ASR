@@ -52,7 +52,7 @@ def write_csv(directory: str, output_path: str,) -> int:
     return count
 
 if __name__ == '__main__':
-    directory = "/scratch/alpine/roso8920/Corpora/CuKidsSpeech/train/train-part5-ogi-1-5"
-    output_path = "/projects/zhwa3087/ASR/data/"
+    directory = ""
+    output_path = ""
     count = write_csv(directory, output_path)
     print(f"Number of files without a corresponding transcript: {count}")

@@ -56,6 +56,6 @@ def construct_dataset(csv_path: str, save_path: str) -> None:
     dataset_processed.save_to_disk(save_path)
 
 if __name__ == '__main__':
-    csv_path = "/projects/zhwa3087/ASR/data/train-part5-ogi-1-5_metadata.csv"
-    save_path = "/scratch/alpine/zhwa3087/ASR/data/"
+    csv_path = ""
+    save_path = ""
     construct_dataset(csv_path, save_path)

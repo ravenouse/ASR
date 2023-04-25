@@ -172,7 +172,7 @@ def train(args):
 if __name__ == "__main__":
     parser = get_parser()
     args = parser.parse_args()
-    args.save_dir = "/projects/zhwa3087/ASR/model" + str(args.model_name)
-    args.cache_dir = "/projects/zhwa3087/ASR/cache" + str(args.model_name)
-    args.data_path = "/scratch/alpine/zhwa3087/ASR/data/train-part5-ogi-1-5"
+    args.save_dir = "" + str(args.model_name)
+    args.cache_dir = "" + str(args.model_name)
+    args.data_path = ""
     train(args)
